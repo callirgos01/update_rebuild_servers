@@ -2,8 +2,8 @@ echo stopping lidarr...
 sudo systemctl stop lidarr.service
 echo into lidarr-source
 cd /usenet/setup/Lidarr/Lidarr-Source
-# echo cleaning
-# rm -rf /usenet/setup/Lidarr/Lidarr-Source/_*
+echo cleaning
+rm -rf /usenet/setup/Lidarr/Lidarr-Source/_*
 echo git pull...
 git pull
 # echo restore
