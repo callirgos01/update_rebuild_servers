@@ -1,0 +1,3 @@
+[submodule "update_plex_server"]
+	path = update_plex_server
+	url = https://github.com/callirgos01/update_plex_server.git
